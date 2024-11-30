@@ -6,7 +6,7 @@ This script calculates the Fibonacci-like sequence using recursion. It takes an 
 
 - **Base Case:**
   - If `n == 0`, the function returns `0`.
-  - If `n == -1`, the function returns `1`.
+  - If `n == 1`, the function returns `1`.
 
 - **Recursive Case:**
   - The function recursively calls itself with `f(n - 2)` and `f(n - 1)`.
