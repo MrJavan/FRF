@@ -7,5 +7,5 @@ def f(n):
     else:
         return f(n - 2) + f(n - 1)
 
-print(f(9))
+print(f(int(input("Number: "))))
      
